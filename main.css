@@ -1,26 +1,29 @@
 * {margin: 0; padding: 0; border: 0; outline: none;}
 html, body {
 	background-color: #efefef;
-	color: #555555;
+	color: #ffffff;
 	font-size: 10px;
 	font-family: "Times New Roman";
 	background-image: url("/img/ash-edmonds-3gdPXgw9emo-unsplash.jpg");
+	background-position: center;
 }
 
 #header {
 	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 	width: 100vw;
-	background-color: #3b3b3b;
-	position: fixed;
+	background-color: #1a1b3f;
+	position:sticky;
 	top: 0;
 	left: 0;
 }
 	#header-img {
-		padding-top: 0.5em;
-		padding-left: 3em;
-		width: 30em;
-		float: left;
+		padding-top: 0em;
+		height: 80px;
+		padding-left: 0em;
+		margin-left:5em;
+		margin-top: -18px;
+		width: 15em;
 	}
 	#nav-bar {
 		padding-right: 7em;
@@ -145,7 +148,8 @@ html, body {
 	.footer div {
 		padding: 1em;
 		font-size: 1.45em;
-		text-align: right;
+		text-align:center;
+		color: grey;
 	}
 		.footer div span {
 			margin-right: 2.1em;
